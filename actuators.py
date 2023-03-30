@@ -6,7 +6,6 @@ from device import Device
 
 
 class ActuatorState(BaseModel):
-
     state: str
 
 
@@ -53,7 +52,6 @@ class HeatOven(HeatControlActuator):
 
 
 class LightBulb(SimpleOnOffActuator):
-
     pass
 
 
